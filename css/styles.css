@@ -227,18 +227,6 @@ body {
     background-color: #f5f4fa;
   }
   
-    font-family: inherit;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1, 87;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: white;
-    background-color: var(--accent-color);
-    cursor: pointer;
-  
   .list-item-title {
     font-weight: bold;
     font-size: 18px;
