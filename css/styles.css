@@ -217,7 +217,7 @@ body {
   
   .help-btn {
     font-family: inherit;
-    font-weight: medium;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
@@ -225,6 +225,13 @@ body {
     cursor: pointer;
     color: var(--main-title-color);
     background-color: #f5f4fa;
+  }
+  
+  .help-btn:hover,
+  .help-btn:focus {
+    font-family: inherit;
+    color: white;
+    background-color: var(--accent-color);
   }
   
   .list-item-title {
