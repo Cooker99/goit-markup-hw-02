@@ -5,7 +5,9 @@
     --main-background-color: #e5e5e5;
     --secondary-background-color: #2f303a;
     --thirdly-background-color: #f5f4fa;
-    --box-background-color: #fffff;
+    --box-background-color: #ffffff;
+    --footer-text-clolr: rgba(255, 255, 255, 0.6);
+    --logo-studio-color: #000000;
   }
 
 body {
@@ -24,26 +26,20 @@ body {
 /* ------------------header------------------ */
 
 .nav {
-    background-color: #FFFFFF;
+    background-color: var(--box-background-color);
   }
 
-.logo-web{
-    font-weight: bold;
+.logo{
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     font-family: Raleway;
     font-style: normal;
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .logo-studio{
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    font-family: Raleway;
-    font-style: normal;
-    color: #000000;
+    color: var(--logo-studio-color);
 }
 
 .main-link {
@@ -94,19 +90,16 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: white;
+    color: var(--box-background-color);
   }
   
   .main-btn {
     font-family: inherit;
-    font-weight: bold;
+    font-weight: 900;
     font-size: 16px;
-    line-height: 1, 87;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    line-height: 1.87;
     letter-spacing: 0.06em;
-    color: white;
+    color: var(--box-background-color);
     background-color: var(--accent-color);
     cursor: pointer;
   }
@@ -129,7 +122,6 @@ body {
   }
   
   .section-1-text {
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.75;
     letter-spacing: 0.03em;
@@ -161,7 +153,7 @@ body {
   }
   
   .section-3-title {
-    font-weight: medium;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -169,7 +161,6 @@ body {
   }
   
   .section-3-text {
-    font-weight: normal;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -184,7 +175,7 @@ body {
     letter-spacing: 0.03em;
     font-family: Raleway;
     font-style: normal;
-    color: white;
+    color: var(--box-background-color);
   }
 
   .footer {
@@ -192,21 +183,19 @@ body {
   }
   
   .footer-address {
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     font-style: normal;
-    color: white;
+    color: var(--box-background-color);
   }
   
   .footer-info {
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     font-style: normal;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--footer-text-clolr)
   }
 
   /* ------------------portfolio------------------ */
@@ -224,13 +213,13 @@ body {
     letter-spacing: 0.03em;
     cursor: pointer;
     color: var(--main-title-color);
-    background-color: #f5f4fa;
+    background-color: var( --thirdly-background-color);
   }
   
   .help-btn:hover,
   .help-btn:focus {
     font-family: inherit;
-    color: white;
+    color: var(--box-background-color);
     background-color: var(--accent-color);
   }
   
@@ -243,7 +232,6 @@ body {
   }
   
   .list-item-text {
-    font-weight: normal;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
